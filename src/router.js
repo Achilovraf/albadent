@@ -26,7 +26,6 @@ const routes = [
     name: "blog-detail",
     component: () => import("@/views/BlogDetail.vue"),
   },
- 
   {
     path: "/admin/gallery",
     name: "admin-gallery",
