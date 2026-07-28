@@ -1,10 +1,7 @@
-// src/router.js
 import { createRouter, createWebHistory } from "vue-router";
 
-// Обычный импорт для главной страницы (быстрая загрузка)
 import Home from "@/views/Home.vue";
 
-// Ленивая подгрузка остальных страниц (создаст отдельные чанки)
 const About = () => import("@/views/About.vue");
 const Contact = () => import("@/views/Contact.vue");
 const Blog = () => import("@/views/Blog.vue");
@@ -29,12 +26,12 @@ const routes = [
   {
     path: "/admin/gallery",
     name: "admin-gallery",
-    component: () => import("@/views/Gallery/Gallery.vue"), // Обновленный путь
+    component: () => import("@/views/Gallery/Gallery.vue"),
   },
   {
     path: "/gallery",
     name: "gallery",
-    component: () => import("@/views/Gallery/Galleryview.vue"), // Обновленный путь
+    component: () => import("@/views/Gallery/Galleryview.vue"), 
   },
 ];
 

@@ -897,9 +897,6 @@ const visiblePages = computed(() => {
   return pages;
 });
 
-// ==============================
-// МЕТОДЫ
-// ==============================
 const formatPrice = (price) => {
   if (!price) return "По запросу";
   return price.toLocaleString("ru-RU");
