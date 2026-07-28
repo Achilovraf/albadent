@@ -142,6 +142,7 @@
       <div class="max-w-7xl mx-auto px-4 text-center">
         <h1 class="text-4xl font-bold text-gray-900 mb-4">
           Каталог продукции AlbaDent
+          test test test 
         </h1>
         <p class="text-gray-600 text-lg">
           Высококачественные стоматологические материалы
